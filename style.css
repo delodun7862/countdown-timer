@@ -1,0 +1,66 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(227, 227, 214);
+}
+
+.deadline-expired-message{
+    display: flex;
+    
+}
+.deadline-expired-message div{
+padding: 20px;
+}
+.section-center{
+    display: flex;
+    padding-left: 50px;
+    width: 800px;
+    padding: 300px 300px;
+}
+img{
+    border-radius: 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    float: left;
+    align-items: center;
+    padding-right: 100px;
+}
+.text{
+    float: right;
+}
+
+
+/*for resposiveness*/
+
+@media (max-width: 720px) {
+    body{
+        font-size: large;
+    }
+    .section-center{
+        padding-left: 5px;
+        width: 100%;
+        margin-left: 5px;
+        padding-top: 100px;
+    }
+    .container{
+        display: block;
+        /* flex-direction: column; */
+        align-items: center;
+    }
+    .text{
+        display: block;
+        width: 100%;
+    }
+    .text p{
+        width: auto;
+        word-wrap: break-word;
+    }
+    
+}
+
+    
+    
+
