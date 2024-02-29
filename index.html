@@ -3,52 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>countdown</title>
-    <!--style-->
+    <title>Countdown Timer</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="section-center">
-      <!--image-->
-      <div class="container">
-        <article class="img">
-          <img src="images/perfume.jpg" alt="perfume" width="250px" />
-        </article>
+    <section>
+      <div class="image">
+        <img src="images/perfume.jpg" alt="perfume" class="image" />
+      </div>
+      <div class="info">
+        <h1>PERFUME GIVEAWAY</h1>
+        <h2 id="giveaway-info">Giveaway Ends On Saturday, 2 March 2024 At</h2>
+        <p class="text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ad
+          consectetur nostrum praesentium magni quia fugiat maiores quis
+          obcaecati eum. Eos error nisi, repellat repellendus asperiores
+          laboriosam perferendis fuga deserunt incidunt ratione cupiditate cum,
+          et commodi doloribus eius tempore libero totam magni ipsum quibusdam
+          magnam ducimus distinctio quos? Explicabo, itaque.
+        </p>
 
-        <div class="text">
-          <h3>PERFUME GIVEAWAY</h3>
-          <h4 class="perfume giveaway">
-            giveaway ends Tuesday,7th march 2024, by 11:00am
-          </h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ad
-            consectetur nostrum praesentium magni quia fugiat maiores quis
-            obcaecati eum. Eos error nisi, repellat repellendus asperiores
-           laboriosam perferendis fuga deserunt incidunt ratione cupiditate cum,
-           et commodi doloribus eius tempore libero totam magni ipsum quibusdam
-            magnam ducimus distinctio quos? Explicabo, itaque.
-          </p>
-
-          <div class="deadline-expired-message">
-            <div>
-              <h4 id="days">00</h4>
-              <span>days</span>
-           </div>
-           <div>
-             <h4 id="hours">00</h4>
-             <span>hours</span>
-           </div>
-            <div>
-              <h4 id="minute">00</h4>
-              <span>minute</span>
+        <div class="countdown-timer">
+          <div class="countdown" id="countdown">
+            <div class="days">
+              <span id="days">00</span>
+              <p>DAYS</p>
             </div>
-            <div>
-              <h4 id="seconds">00</h4>
-              <span>seconds</span>
+            <div class="hours">
+              <span id="hours">00</span>
+              <p>HOURS</p>
+            </div>
+            <div class="minutes">
+              <span id="minutes">00</span>
+              <p>MINUTES</p>
+            </div>
+            <div class="seconds">
+              <span id="seconds">00</span>
+              <p>SECONDS</p>
             </div>
           </div>
-      </di v>
-    </div>
+        </div>
+      </div>
     </section>
     <script src="script.js"></script>
   </body>
